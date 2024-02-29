@@ -12,9 +12,14 @@
 <body>
     <section id="navbar">
         <div class="navbar" onclick="selectSection(event)">
-            <a data-item="marvel" class="marvel-icon" href="#">Marvel</a>
-            <a data-item="dc" class="dc-icon" href="#">DC-Comics</a>
-            <a data-item="all" class="all-icon" href="#">Vs</a>
+            <a data-item="marvel" href="#">
+                <img data-item="marvel" class="marvel-icon" src="/storage/img/logos/marvel.svg"
+                    alt="Logo de Marvel Comics"></a>
+            <a data-item="dc" href="#">
+                <img data-item="dc" class="dc-icon" src="/storage/img/logos/dc-comics.svg" alt="Logo de DC Comics">
+            </a>
+            <a data-item="all" class="all-icon" href="#"><img data-item="all" class="versus-icon"
+                    src="/storage/img/logos/versus-logo.png" alt="Logo de versus"></a>
         </div>
         <input type="search" id="inputSearch" placeholder="Buscar">
     </section>
