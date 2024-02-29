@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+
+
+/* NAV BAR */
+#navbar {
+    background-color: #202020;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+/* NAV BAR */
+
+
+
+
+/* SECTIONS */
+#marvel.hidden,
+#dc.hidden,
+#all.hidden {
+    display: none;
+}
+
+#marvel,
+#dc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+
+/* SECTIONS */
+
+
+
+
+/* VERSUS SECTION */
+#all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95vh;
+    padding: 20px;
+}
+
+#all .versus {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 50%;
+}
+
+#all .versus img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    object-position: top;
+    opacity: 0.8;
+}
+
+#all .versus img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+/* VERSUS SECTION */
+
+
+
+/* CARDS SECTION */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.cards-container .card {
+    position: relative;
+    width: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cards-container .card .image {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.cards-container .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    transition: transform 0.3s ease;
+}
+
+.cards-container .card img:hover {
+    transform: scale(1.1);
+}
+
+.cards-container .card .info {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cards-container button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.cards-container button:hover {
+    background-color: #8a0202;
+}
+
+/* CARDS SECTION */
+
+
+
+/* MODAL */
+#modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#modal .modal-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    gap: 1rem;
+    margin: auto;
+}
+
+#modal .image {
+    display: flex;
+    height: 50%;
+    width: 50%;
+}
+
+#modal .image img {
+    width: 100%;
+    object-fit: contain;
+}
+
+#modal .close-btn {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: background-color 0.3s ease;
+}
+
+#modal .close-btn:hover {
+    background-color: #616060;
+}
+
+#character-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 40%;
+    background-color: #fff;
+}
+
+#character-info h2 {
+    font-size: 3rem;
+}
+
+#character-info p {
+    font-size: 1.2rem;
+    text-wrap: balance;
+}
+
+/* MODAL */
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width: 1200px) {
+    #navbar .navbar .all-icon {
+        display: none;
+    }
+
+    #character-info h2 {
+        font-size: 30px;
+    }
+
+    #character-info p {
+        font-size: 16px;
+        text-wrap: balance;
+    }
+
+
+}

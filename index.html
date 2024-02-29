@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heroes Landing</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/app.js" defer></script>
+</head>
+
+<body>
+    <section id="navbar">
+        <div class="navbar" onclick="selectSection(event)">
+            <a data-item="marvel" class="marvel-icon" href="#">Marvel</a>
+            <a data-item="dc" class="dc-icon" href="#">DC-Comics</a>
+            <a data-item="all" class="all-icon" href="#">Vs</a>
+        </div>
+    </section>
+
+    <main>
+        <section id="marvel" class="section">
+            <img src="/storage/img/logos/marvel.svg" alt="Logo de Marvel Comics">
+        </section>
+
+        <section id="dc" class="section hidden">
+            <img src="/storage/img/logos/dc-comics.svg" alt="Logo de DC Comics">
+        </section>
+
+        <section id="all" class="section hidden">
+            <section id="marvel-img" class="versus">
+                <img src="storage/img/marvel/black-panther.jpg" alt="Imagen de el personaje Black Panther" />
+                <img src="storage/img/marvel/black-widow.jpg" alt="Imagen de el personaje Black Widow" />
+                <img src="storage/img/marvel/captain-america.jpg" alt="Imagen de el personaje Capitan America" />
+                <img src="storage/img/marvel/dead-pool.jpg" alt="Imagen de el personaje Dead Pool" />
+                <img src="storage/img/marvel/dr-strange.jpg" alt="Imagen de el personaje Doctor Strange" />
+                <img src="storage/img/marvel/hulk.jpg" alt="Imagen de el personaje Hulk" />
+                <img src="storage/img/marvel/iron-man.jpg" alt="Imagen de el personaje Iron Man" />
+                <img src="storage/img/marvel/loki.jpg" alt="Imagen de el personaje Loki" />
+                <img src="storage/img/marvel/thor.jpg" alt="Imagen de el personaje Thor" />
+                <img src="storage/img/marvel/spider-man.jpg" alt="Imagen de el personaje Spider Man" />
+                <img src="storage/img/marvel/venom.jpg" alt="Imagen de el personaje Venom" />
+                <img src="storage/img/marvel/thanos.jpg" alt="Imagen de el personaje Thanos" />
+                <img src="storage/img/marvel/ultron.jpg" alt="Imagen de el personaje Ultron" />
+                <img src="storage/img/marvel/ant-man.jpg" alt="Imagen de el personaje Ant Man" />
+                <img src="storage/img/marvel/wolverine.jpg" alt="Imagen de el personaje Wolverine" />
+            </section>
+            <section id="dc-img" class="versus">
+                <img src="storage/img/dc/captain-boomerang.jpg" alt="Imagen de el personaje " />
+                <img src="storage/img/dc/aquaman.jpg" alt="Imagen de el personaje " />
+                <img src="storage/img/dc/cyborg.jpg" alt="Imagen de el personaje " />
+                <img src="storage/img/dc/dead-shot.jpg" alt="Imagen de el personaje " />
+                <img src="storage/img/dc/batman.jpg" alt="Imagen de el personaje " />
+                <img src="storage/img/dc/superman.jpg" alt="Imagen de el personaje " />
+                <img src="storage/img/dc/wonder-woman.jpg" alt="Imagen de el personaje " />
+                <img src="storage/img/dc/harley-quinn.jpg" alt="Imagen de el personaje " />
+                <img src="storage/img/dc/joker.jpg" alt="Imagen de el personaje " />
+                <img src="storage/img/dc/doomsday.jpg" alt="Imagen de el personaje " />
+                <img src="storage/img/dc/flash.jpg" alt="Imagen de el personaje " />
+                <img src="storage/img/dc/green-arrow.jpg" alt="Imagen de el personaje " />
+                <img src="storage/img/dc/green-lantern.jpg" alt="Imagen de el personaje " />
+                <img src="storage/img/dc/hawk-man.jpg" alt="Imagen de el personaje " />
+                <img src="storage/img/dc/night-wing.jpg" alt="Imagen de el personaje " />
+            </section>
+        </section>
+
+        <div id="modal">
+            <div class="modal-content">
+                <div id="character-info">
+                    <button class="close-btn" onclick="cerrarModal()">Regresar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
