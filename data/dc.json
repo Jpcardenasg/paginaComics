@@ -1,0 +1,92 @@
+[
+    {
+        "id": "6d86371fd55e2e2a30fe1cc7",
+        "description": "Joker, also known as the Clown Prince of Crime, is a psychotic criminal mastermind with a sadistic sense of humor and a long-standing arch-nemesis of Batman.",
+        "picture": "storage/img/dc/joker.jpg",
+        "name": "Joker"
+    },
+    {
+        "id": "6d86371f1efebc31def272e2",
+        "description": "Harley Quinn, also known as Dr. Harleen Quinzel, is a former psychiatrist turned crazed criminal and love interest of the Joker, known for her playful yet deadly demeanor.",
+        "picture": "storage/img/dc/harley-quinn.jpg",
+        "name": "Harley Quinn"
+    },
+    {
+        "id": "6d86371f2343e37870b91ef1",
+        "description": "Batman, also known as Bruce Wayne, is a billionaire vigilante who fights crime in Gotham City using his intellect, martial arts skills, and an arsenal of gadgets.",
+        "picture": "storage/img/dc/batman.jpg",
+        "name": "Batman"
+    },
+    {
+        "id": "6d86371f233c9f2425f16916",
+        "description": "Superman, also known as Clark Kent or Kal-El, is a powerful alien superhero with abilities such as super strength, flight, and heat vision, dedicated to protecting Earth from evil threats.",
+        "picture": "storage/img/dc/superman.jpg",
+        "name": "Superman"
+    },
+    {
+        "id": "6d86371f25a058e5b1c8a65e",
+        "description": "Wonder Woman, also known as Diana Prince, is an Amazonian warrior princess with superhuman strength and agility, wielding the Lasso of Truth and other divine weapons to fight for justice.",
+        "picture": "storage/img/dc/wonder-woman.jpg",
+        "name": "Wonder Woman"
+    },
+    {
+        "id": "6d86371f9f80b591f499df32",
+        "description": "Doomsday is a genetically-engineered monstrous being bred for destruction, known for his role in the Death of Superman storyline as one of the Man of Steel's most formidable adversaries.",
+        "picture": "storage/img/dc/doomsday.jpg",
+        "name": "Doomsday"
+    },
+    {
+        "id": "6d86371f97c29d020f1e1f6d",
+        "description": "Aquaman, also known as Arthur Curry, is the king of the underwater kingdom of Atlantis with superhuman strength, telepathic communication with marine life, and control over the seas.",
+        "picture": "storage/img/dc/aquaman.jpg",
+        "name": "Aquaman"
+    },
+    {
+        "id": "6d86371fd55e2e2a30fe1cc4",
+        "description": "Cyborg, also known as Victor Stone, is a superhero with cybernetic enhancements, granting him superhuman strength, durability, and various technological abilities.",
+        "picture": "storage/img/dc/cyborg.jpg",
+        "name": "Cyborg"
+    },
+    {
+        "id": "6d86371fd55e2e2a30fe1ccb",
+        "description": "Green Arrow, also known as Oliver Queen, is a skilled archer and vigilante who fights crime using his accuracy with a bow and arrow, along with his keen intellect and martial arts skills.",
+        "picture": "storage/img/dc/green-arrow.jpg",
+        "name": "Green Arrow"
+    },
+    {
+        "id": "6d86371fd55e2e2a30fe1ccb1",
+        "description": "Deadshot, also known as Floyd Lawton, is a deadly assassin and expert marksman known for his impeccable aim and willingness to take on any job for the right price.",
+        "picture": "storage/img/dc/dead-shot.jpg",
+        "name": "Dead Shot"
+    },
+    {
+        "id": "6d86371fd55e2e2a30fe1cc6",
+        "description": "Hawkman, also known as Carter Hall, is a reincarnated ancient Egyptian prince armed with a mystical Nth metal harness that grants him flight, enhanced strength, and the ability to reincarnate across time.",
+        "picture": "storage/img/dc/hawk-man.jpg",
+        "name": "Hawkman"
+    },
+    {
+        "id": "6d86371fd55e2e2a30fe1ccb2",
+        "description": "Nightwing, also known as Dick Grayson, is the original Robin and former sidekick to Batman who later adopts the identity of Nightwing, operating as a skilled acrobat and detective in his own right.",
+        "picture": "storage/img/dc/night-wing.jpg",
+        "name": "Night Wing"
+    },
+    {
+        "id": "6d86371fd55e2e2a30fe1cc5",
+        "description": "The Flash, also known as Barry Allen or Wally West, is a superhero with the ability to move at superhuman speeds, using his powers to fight crime and protect Central City as the Scarlet Speedster.",
+        "picture": "storage/img/dc/flash.jpg",
+        "name": "Flash"
+    },
+    {
+        "id": "6d86371fd55e2e2a30fe1cc3",
+        "description": "Green Lantern, also known as Hal Jordan or John Stewart, is a member of the intergalactic police force known as the Green Lantern Corps, wielding a power ring that allows him to create constructs out of green light and defend the universe from evil.",
+        "picture": "storage/img/dc/green-lantern.jpg",
+        "name": "Green Lantern"
+    },
+    {
+        "id": "6d86371fd55e2e2a30fe1cc7",
+        "description": "Captain Boomerang, also known as George 'Digger' Harkness, is a criminal with a talent for using boomerangs as deadly weapons, often clashing with the Flash and other superheroes.",
+        "picture": "storage/img/dc/captain-boomerang.jpg",
+        "name": "Captain Boomerang"
+    }
+]

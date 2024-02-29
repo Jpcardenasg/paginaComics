@@ -1,0 +1,92 @@
+[
+    {
+        "id": "5d86371fd55e2e2a30fe1cc7",
+        "description": "Deadpool, also known as Wade Wilson, is a wisecracking anti-hero known for his sarcasm, quick wit, and accelerated healing factor.",
+        "picture": "storage/img/marvel/dead-pool.jpg",
+        "name": "Dead Pool"
+    },
+    {
+        "id": "5d86371f1efebc31def272e2",
+        "description": "Iron Man, also known as Tony Stark, is a billionaire genius inventor who fights crime using his powered exoskeleton armor.",
+        "picture": "storage/img/marvel/iron-man.jpg",
+        "name": "Iron Man"
+    },
+    {
+        "id": "5d86371f2343e37870b91ef1",
+        "description": "Hulk, also known as Bruce Banner, is a scientist who transforms into a superhuman green-skinned behemoth when angered or agitated.",
+        "picture": "storage/img/marvel/hulk.jpg",
+        "name": "Hulk"
+    },
+    {
+        "id": "5d86371f233c9f2425f16916",
+        "description": "Black Widow, also known as Natasha Romanoff, is a highly trained spy and assassin known for her exceptional martial arts skills and agility.",
+        "picture": "storage/img/marvel/black-widow.jpg",
+        "name": "Black Widow"
+    },
+    {
+        "id": "5d86371f25a058e5b1c8a65e",
+        "description": "Captain America, also known as Steve Rogers, is a patriotic super-soldier who fought during World War II and continues to defend freedom with his shield and enhanced physical abilities.",
+        "picture": "storage/img/marvel/captain-america.jpg",
+        "name": "Captain America"
+    },
+    {
+        "id": "5d86371f9f80b591f499df32",
+        "description": "Thanos is a powerful villain obsessed with bringing balance to the universe by collecting all six Infinity Stones and wielding the Infinity Gauntlet.",
+        "picture": "storage/img/marvel/thanos.jpg",
+        "name": "Thanos"
+    },
+    {
+        "id": "5d86371f97c29d020f1e1f6d",
+        "description": "Thor is the Norse God of Thunder and a founding member of the Avengers, wielding the enchanted hammer Mjolnir and possessing god-like strength and abilities.",
+        "picture": "storage/img/marvel/thor.jpg",
+        "name": "Thor"
+    },
+    {
+        "id": "5d86371fd55e2e2a30fe1cc4",
+        "description": "Loki is the God of Mischief and Thor's adoptive brother, known for his cunning intellect, magical abilities, and complex relationship with Asgard and its inhabitants.",
+        "picture": "storage/img/marvel/loki.jpg",
+        "name": "Loki"
+    },
+    {
+        "id": "5d86371fd55e2e2a30fe1ccb",
+        "description": "Black Panther, also known as T'Challa, is the king of the fictional African nation of Wakanda and possesses enhanced strength, speed, and agility due to consuming the heart-shaped herb.",
+        "picture": "storage/img/marvel/black-panther.jpg",
+        "name": "Black Panther"
+    },
+    {
+        "id": "5d86371fd55e2e2a30fe1ccb1",
+        "description": "Doctor Strange, also known as Stephen Strange, is a former neurosurgeon who becomes the Sorcerer Supreme, protecting the Earth from mystical threats using his mastery of the mystic arts.",
+        "picture": "storage/img/marvel/dr-strange.jpg",
+        "name": "Doctor Strange"
+    },
+    {
+        "id": "5d86371fd55e2e2a30fe1cc6",
+        "description": "Venom, also known as Eddie Brock, is a sentient alien symbiote that bonds with its host to become an anti-hero with spider-like abilities and a lethal black costume.",
+        "picture": "storage/img/marvel/venom.jpg",
+        "name": "Venom"
+    },
+    {
+        "id": "5d86371fd55e2e2a30fe1ccb2",
+        "description": "Spider-Man, also known as Peter Parker, is a teenage superhero with spider-like abilities who fights crime in New York City while balancing the challenges of high school and personal life.",
+        "picture": "storage/img/marvel/spider-man.jpg",
+        "name": "Spider Man"
+    },
+    {
+        "id": "5d86371fd55e2e2a30fe1cc5",
+        "description": "Ultron is a sentient artificial intelligence created by Tony Stark who becomes a powerful robotic supervillain intent on wiping out humanity to achieve peace.",
+        "picture": "storage/img/marvel/ultron.jpg",
+        "name": "Ultron"
+    },
+    {
+        "id": "5d86371fd55e2e2a30fe1cc3",
+        "description": "Ant-Man, also known as Scott Lang or Hank Pym, is a superhero with the ability to shrink in size while increasing in strength, using a suit equipped with Pym Particles.",
+        "picture": "storage/img/marvel/ant-man.jpg",
+        "name": "Ant Man"
+    },
+    {
+        "id": "5d86371fd55e2e2a30fe1cc7",
+        "description": "Wolverine, also known as Logan or James Howlett, is a mutant with retractable adamantium claws, enhanced physical abilities, and a regenerative healing factor.",
+        "picture": "storage/img/marvel/wolverine.jpg",
+        "name": "Wolverine"
+    }
+]
