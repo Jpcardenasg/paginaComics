@@ -15,11 +15,27 @@ main {
 
 /* NAV BAR */
 #navbar {
-    background-color: #202020;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background: linear-gradient(0deg, #202020 0%, rgba(0, 0, 0, 1) 100%);
 }
 
 #navbar a {
     color: #fff;
+}
+
+#navbar input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#navbar input:focus {
+    border-color: #8a0202;
 }
 
 /* NAV BAR */
@@ -39,7 +55,21 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    min-height: 100vh;
     padding: 16px;
+}
+
+#marvel {
+    background: linear-gradient(to bottom, rgba(36, 0, 0, 1), rgba(115, 36, 36, 1), rgba(255, 0, 0, 1));
+}
+
+#dc {
+    background: linear-gradient(180deg, rgb(4, 4, 118) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+#dc>img {
+    width: 170px;
 }
 
 /* SECTIONS */
@@ -54,8 +84,9 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 95vh;
+    height: 99vh;
     padding: 20px;
+    background: linear-gradient(180deg, #202020 0%, rgba(0, 0, 0, 1) 100%);
 }
 
 #all .versus {
@@ -143,7 +174,7 @@ main {
     border: none;
     cursor: pointer;
     color: #fff;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.3);
     transition: background-color 0.3s ease;
 }
 
@@ -169,9 +200,9 @@ main {
 
 #modal .modal-content {
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: center;
     align-items: center;
-    position: relative;
+    width: 80%;
     padding: 20px;
     gap: 1rem;
     margin: auto;
@@ -179,12 +210,16 @@ main {
 
 #modal .image {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50%;
     width: 50%;
 }
 
 #modal .image img {
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
     object-fit: contain;
 }
 
@@ -204,22 +239,23 @@ main {
     background-color: #616060;
 }
 
-#character-info {
+#modal .character-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    height: 100%;
-    width: 40%;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 8px;
     background-color: #fff;
 }
 
-#character-info h2 {
+#modal .character-info h2 {
     font-size: 3rem;
 }
 
-#character-info p {
+#modal .character-info p {
     font-size: 1.2rem;
     text-wrap: balance;
 }
@@ -234,8 +270,29 @@ main {
 
 
 @media screen and (max-width: 1200px) {
+
+    #navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #navbar input {
+        padding: 6px;
+    }
+
     #navbar .navbar .all-icon {
         display: none;
+    }
+
+    #modal .modal-content {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    #modal .image {
+        height: auto;
+        width: auto;
     }
 
     #character-info h2 {
