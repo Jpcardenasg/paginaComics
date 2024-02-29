@@ -17,8 +17,29 @@ main {
 #navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 16px;
     background: linear-gradient(0deg, #202020 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+#navbar .navbar {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#navbar .navbar .marvel-icon {
+    width: 170px;
+}
+
+#navbar .navbar .dc-icon {
+    width: 75px;
+}
+
+#navbar .navbar .versus-icon {
+    width: 75px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgb(153, 12, 12) 0%, rgb(4, 4, 118) 100%);
 }
 
 #navbar a {
@@ -212,13 +233,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50%;
-    width: 50%;
 }
 
 #modal .image img {
     max-width: 100%;
     max-height: 100%;
+    height: 900px;
     border-radius: 8px;
     object-fit: contain;
 }
@@ -245,6 +265,7 @@ main {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    width: 50%;
     gap: 20px;
     padding: 10px;
     border-radius: 8px;
@@ -257,7 +278,6 @@ main {
 
 #modal .character-info p {
     font-size: 1.2rem;
-    text-wrap: balance;
 }
 
 /* MODAL */
@@ -284,6 +304,14 @@ main {
         display: none;
     }
 
+    #navbar .navbar .marvel-icon {
+        width: 100px;
+    }
+
+    #navbar .navbar .dc-icon {
+        width: 50px;
+    }
+
     #modal .modal-content {
         width: 90%;
         height: auto;
@@ -295,14 +323,34 @@ main {
         width: auto;
     }
 
-    #character-info h2 {
+    #modal .image img {
+        height: auto;
+    }
+
+    #modal .character-info {
+        width: auto;
+    }
+
+    #modal .character-info h2 {
         font-size: 30px;
     }
 
-    #character-info p {
-        font-size: 16px;
+    #modal .character-info p {
+        font-size: 18px;
         text-wrap: balance;
     }
 
+    #modal .close-btn {
+        font-size: 16px;
+    }
+}
 
+@media screen and (500px <=width < 1200px) {
+    #modal .image img {
+        width: 70%;
+    }
+
+    #modal .character-info {
+        width: 80%;
+    }
 }
