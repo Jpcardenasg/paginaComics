@@ -3,7 +3,11 @@ const dcSection = document.getElementById( 'dc' );
 const allSection = document.getElementById( 'all' );
 const modal = document.getElementById( 'modal' );
 const modalContent = document.querySelector( '.modal-content' );
-const characterInfo = document.getElementById( 'character-info' );
+const characterInfo = document.createElement( 'div' );
+characterInfo.classList = 'character-info';
+
+let marvelData;
+let dcData;
 
 
 async function loadData( url ) {
@@ -57,10 +61,12 @@ function createCards( characters, section ) {
 
         viewButton.addEventListener( 'click', () => {
             modal.style.display = 'block';
+            modalContent.innerHTML = '';
             characterInfo.innerHTML = '';
 
             const cloneImage = image.cloneNode( true );
             modalContent.appendChild( cloneImage );
+            modalContent.appendChild( characterInfo );
 
             const cloneName = name.cloneNode( true );
             characterInfo.appendChild( cloneName );
@@ -69,6 +75,11 @@ function createCards( characters, section ) {
             description.textContent = character.description;
             characterInfo.appendChild( description );
 
+            const backButton = document.createElement( 'button' );
+            backButton.textContent = 'Regresar';
+            backButton.classList.add( 'close-btn' );
+            backButton.addEventListener( 'click', cerrarModal );
+            characterInfo.appendChild( backButton );
 
         } );
 
@@ -78,8 +89,8 @@ function createCards( characters, section ) {
 }
 
 ( async function () {
-    const marvelData = await loadData( 'data/marvel.json' );
-    const dcData = await loadData( 'data/dc.json' );
+    marvelData = await loadData( 'data/marvel.json' );
+    dcData = await loadData( 'data/dc.json' );
     createCards( marvelData, marvelSection );
     createCards( dcData, dcSection );
 
@@ -90,6 +101,23 @@ function createCards( characters, section ) {
 
 
 } )();
+
+const inputSearch = document.getElementById( 'inputSearch' );
+inputSearch.addEventListener( 'input', buscar );
+
+function buscar() {
+    let searchUpperCase = inputSearch.value.toUpperCase();
+
+    const filteredMarvelData = marvelData.filter( character => character.name.toUpperCase().includes( searchUpperCase ) );
+    const filteredDCData = dcData.filter( character => character.name.toUpperCase().includes( searchUpperCase ) );
+
+    marvelSection.innerHTML = '';
+    dcSection.innerHTML = '';
+
+    createCards( filteredMarvelData, marvelSection );
+    createCards( filteredDCData, dcSection );
+}
+
 
 function cerrarModal() {
     modal.style.display = "none";

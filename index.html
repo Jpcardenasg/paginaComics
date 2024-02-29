@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Heroes Landing</title>
+    <title>Comics</title>
     <link rel="stylesheet" href="css/styles.css" />
     <script src="js/app.js" defer></script>
 </head>
@@ -16,6 +16,7 @@
             <a data-item="dc" class="dc-icon" href="#">DC-Comics</a>
             <a data-item="all" class="all-icon" href="#">Vs</a>
         </div>
+        <input type="search" id="inputSearch" placeholder="Buscar">
     </section>
 
     <main>
@@ -65,11 +66,7 @@
         </section>
 
         <div id="modal">
-            <div class="modal-content">
-                <div id="character-info">
-                    <button class="close-btn" onclick="cerrarModal()">Regresar</button>
-                </div>
-            </div>
+            <div class="modal-content"></div>
         </div>
     </main>
 </body>
